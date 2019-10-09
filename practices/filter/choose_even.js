@@ -1,8 +1,7 @@
 'use strict';
 
-function choose_even(collection) {
+function choose_even(collection)
 
-  //write code here
-}
+  collection.filter(n=>n%2 == 0);
 
 module.exports = choose_even;
