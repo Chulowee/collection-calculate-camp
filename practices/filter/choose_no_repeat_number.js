@@ -1,7 +1,7 @@
 'use strict';
 
 function choose_no_repeat_number(collection) {
-  return collection.filter((v, i, arr) => arr.indexOf(v) === i);
+  return collection.filter((num, index, array) => array.indexOf(num) === index); 
 }
 
 module.exports = choose_no_repeat_number;
