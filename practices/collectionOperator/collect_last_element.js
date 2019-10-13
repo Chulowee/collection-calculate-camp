@@ -1,7 +1,7 @@
 'use strict';
 
 function collect_last_element(collection) {
-  //write code here
+  return collection.reduce((cur, next) => next);
 }
 
 module.exports = collect_last_element;
